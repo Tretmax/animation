@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    width: 100mm;
+    height: 100mm;
+    margin-top: 2%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner_square {
+    width: 50mm;
+    height: 50mm;
+    background-color: cornflowerblue;
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-180deg);
+    }
+}
+}
