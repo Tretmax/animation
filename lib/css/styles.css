@@ -153,3 +153,44 @@ button {
     background: rgb(245, 106, 222);
     color: rgb(19, 255, 204);
 }
+
+.clock{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.table{
+    position: relative;
+    
+
+}
+
+.sec{
+  
+    
+    height: 35%;
+    position: absolute ;
+  left:48%;  top: 114%; z-index: 99;
+    animation-name: timer;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: flex;
+    justify-content: center;
+}
+    @keyframes timer{
+
+from{
+
+    transform:  rotate(0deg);
+}
+
+to{
+
+    transform: rotate(360deg);
+}
+
+    }
+   
