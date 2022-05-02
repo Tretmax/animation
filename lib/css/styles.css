@@ -157,12 +157,14 @@ button {
 .clock{
     display: flex;
     justify-content: center;
+    position: relative;
+align-items: center;
     
     
 
 }
 .table{
-    position: relative;
+    
     
 
 }
@@ -170,9 +172,9 @@ button {
 .sec{
   
     
-    height: 35%;
+    height: 60%;
     position: absolute ;
-  left:48%;  top: 114%; z-index: 99;
+  
     animation-name: timer;
     animation-duration: 60s;
     animation-iteration-count: infinite;
